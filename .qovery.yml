@@ -1,0 +1,11 @@
+---
+application:
+  name: "botkill"
+  project: "botkill"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-botkill"
+  routes:
+  - application_name: "botkill"
+    paths:
+    - "/*"
